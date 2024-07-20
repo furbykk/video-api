@@ -1,0 +1,76 @@
+{
+	"info": {
+		"_postman_id": "e180fe81-4023-4a4f-a93a-02c76af9e4c2",
+		"name": "jwt-base",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "8754747"
+	},
+	"item": [
+		{
+			"name": "capture photos",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"num\":3\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:3399/fs/photo",
+					"host": [
+						"localhost"
+					],
+					"port": "3399",
+					"path": [
+						"fs",
+						"photo"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "get photos",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost:3399/fs/photo",
+					"host": [
+						"localhost"
+					],
+					"port": "3399",
+					"path": [
+						"fs",
+						"photo"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "capture desktop ffmpeg",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"url": {
+					"raw": "localhost:3399/fs/ffmpeg",
+					"host": [
+						"localhost"
+					],
+					"port": "3399",
+					"path": [
+						"fs",
+						"ffmpeg"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
