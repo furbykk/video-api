@@ -1,1 +1,4 @@
 /node_modules/
+/videos/*.mp4
+/photos/*.jpg
+/.env.example
